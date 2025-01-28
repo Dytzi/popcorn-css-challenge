@@ -3,17 +3,43 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-
+body{
+    text-align: center;
+}
 header{
+    display: flex;
     background-color: #FFDBAA;
-    color:#553100
+    color:#553100;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap:10px;
+    padding: 10px 10px;
 }
 
 button{
     color : #805215
+    
 }
 
 main{
     background-color: #d4a76a;
 }
 
+section{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+address{
+    justify-content: center;
+}
+
+.card{
+    justify-content: center;
+    background-color:#FFDBAA;
+    padding: 30px;
+}
